@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.harneet.meminder.Create_Account">
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/background_create_account" />
+
+    <!-- First name -->
+    <TextView
+        android:id="@+id/firstNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/first_name_label"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/firstNameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/firstNameLabel"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_toRightOf="@+id/firstNameLabel"
+        android:layout_toEndOf="@+id/firstNameLabel"
+        android:ems="8"
+        android:inputType="text"
+        android:text="@string/first_name"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" >
+        <requestFocus />
+    </EditText>
+
+    <!-- Last Name  -->
+    <TextView
+        android:id="@+id/lastNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/firstNameLabel"
+        android:layout_alignStart="@+id/firstNameLabel"
+        android:layout_below="@+id/firstNameLabel"
+        android:padding="10dp"
+        android:text="@string/lastName_label"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/lastNameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lastNameLabel"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_toRightOf="@+id/lastNameLabel"
+        android:layout_toEndOf="@+id/lastNameLabel"
+        android:ems="8"
+        android:inputType="text"
+        android:text="@string/last_name"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" >
+        <requestFocus />
+    </EditText>
+
+    <!-- Email Address -->
+    <TextView
+        android:id="@+id/emailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lastNameLabel"
+        android:layout_alignStart="@+id/lastNameLabel"
+        android:layout_below="@+id/lastNameLabel"
+        android:padding="10dp"
+        android:text="@string/email_label"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/emailLabel"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_toRightOf="@+id/emailLabel"
+        android:layout_toEndOf="@id/emailLabel"
+        android:ems="8"
+        android:inputType="textEmailAddress"
+        android:text="@string/email"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" >
+        <requestFocus />
+    </EditText>
+
+    <!-- Password -->
+    <TextView
+        android:id="@+id/passwordLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/emailLabel"
+        android:layout_alignStart="@+id/emailLabel"
+        android:layout_below="@+id/emailLabel"
+        android:padding="10dp"
+        android:text="@string/password_label"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/passwordLabel"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_toRightOf="@+id/passwordLabel"
+        android:layout_toEndOf="@+id/passwordLabel"
+        android:ems="8"
+        android:inputType="textPassword"
+        android:text="@string/passwords"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" >
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/passwordLabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/passwordLabel"
+        android:layout_alignStart="@+id/passwordLabel"
+        android:layout_below="@+id/passwordLabel"
+        android:padding="10dp"
+        android:text="@string/passwords_label2"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/passwordEditText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/passwordLabel2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_toRightOf="@+id/passwordLabel2"
+        android:layout_toEndOf="@+id/passwordLabel2"
+        android:ems="8"
+        android:inputType="textPassword"
+        android:text="@string/passwords2"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" >
+        <requestFocus />
+    </EditText>
+
+    <!-- Button for creating a new account -->
+    <Button
+        android:id="@+id/register"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignEnd="@+id/passwordEditText"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/passwordEditText"
+        android:text="@string/create_account2"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="46dp"
+        android:layout_marginStart="46dp"
+        android:layout_toEndOf="@+id/firstNameEditText"
+        android:layout_toRightOf="@+id/firstNameEditText"
+        android:text="@string/back"
+        android:textSize="20sp" />
+
+</RelativeLayout>

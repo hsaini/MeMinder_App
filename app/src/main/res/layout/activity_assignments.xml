@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.harneet.meminder.Assignments">
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="@string/assignment_number"
+            android:padding="3dip" />
+        <EditText
+            android:gravity="start"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="@string/course_Name"
+            android:padding="3dip" />
+        <EditText
+            android:gravity="end"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="@string/course_Code"
+            android:padding="3dip" />
+        <EditText
+            android:gravity="end"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="@string/due"
+            android:padding="3dip" />
+        <EditText
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#244cff" />
+
+
+    <TableRow>
+        <Button
+            android:text="@string/Add"
+            android:padding="3dip"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/button_back_home"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="@string/back_home" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+</TableLayout>
+

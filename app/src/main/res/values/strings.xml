@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MeMinder</string>
+    <string name="user_name_label">User Name</string>
+    <string name="user_name" />
+    <string name="password_label">Password</string>
+    <string name="password" />
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="View_Assignment">Assignments</string>
+    <string name="View_Courses">Courses</string>
+    <string name="View_Calendar">Calendar</string>
+    <string name="first_name_label">First Name</string>
+    <string name="first_name" />
+    <string name="lastName_label">Last Name</string>
+    <string name="last_name" />
+    <string name="email_label">Email</string>
+    <string name="email" />
+    <string name="passwords" />
+    <string name="passwords_label2">Re-enter Password</string>
+    <string name="passwords2" />
+    <string name="create_account2">Register</string>
+    <string name="back">Back To Login</string>
+    <string name="assignment_number">Assignment #</string>
+    <string name="course_Name">Course Name</string>
+    <string name="course_Code">Course Code</string>
+    <string name="due">Due on</string>
+    <string name="Add">Add</string>
+    <string name="Course">Course</string>
+    <string name="back_home">Back Home</string>
+    <string name="back_assignments">Back to Assignment</string>
+    <string name="login_image" />
+</resources>
